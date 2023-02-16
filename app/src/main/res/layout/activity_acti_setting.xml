@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="9dp"
+    tools:context=".Ui.Acti_setting">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="9dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/boder_light_grey"
+        android:textColor="@color/white"
+        android:layout_marginTop="12dp"
+        android:textStyle="bold"
+        android:text="Setting" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#B5B3B3"/>
+
+
+    <TextView
+        android:id="@+id/tv_Acti_setting_updateProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:drawableStart="@drawable/baseline_lock_outline_24"
+        android:layout_marginTop="12dp"
+        android:text="Cập nhật thông tin" />
+
+    <TextView
+        android:id="@+id/tv_Acti_setting_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:drawableStart="@drawable/baseline_delete_24"
+        android:layout_marginTop="12dp"
+        android:text="Vô hiệu hóa tài khoản" />
+
+
+    <TextView
+        android:id="@+id/tv_Acti_setting_Logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:drawableStart="@drawable/baseline_logout_24"
+        android:layout_marginTop="12dp"
+        android:text="Logout" />
+</LinearLayout>

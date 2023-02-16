@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Home"
+        android:icon="@drawable/baseline_home_24"
+        android:id="@+id/menu_Home"
+        />
+    <item android:title="Whey-Mass"
+        android:icon="@drawable/baseline_view_agenda_24"
+        android:id="@+id/menu_WheyMass"
+        />
+    <item android:title="Bcaa-Eaa"
+        android:icon="@drawable/baseline_view_week_24"
+        android:id="@+id/menu_Bcaa"
+        />
+    <item android:title="Profile"
+        android:icon="@drawable/baseline_manage_accounts_24"
+        android:id="@+id/menu_profile"
+        />
+</menu>

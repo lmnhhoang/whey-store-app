@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="350dp"
+    android:layout_height="270dp"
+    android:padding="9dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        app:cardCornerRadius="9dp"
+        app:cardElevation="2dp">
+
+        <RelativeLayout
+            android:layout_width="350dp"
+            android:layout_height="250dp"
+            android:padding="6dp">
+
+            <ImageView
+                android:id="@+id/img_dialog_check_hoaDon"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginRight="9dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/item" />
+
+            <TextView
+                android:id="@+id/tv_dialog_title_check_hoaDon"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_toRightOf="@+id/img_dialog_check_hoaDon"
+                android:gravity="center"
+                android:text="wheystore"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/tv_dialog_weight__check_hoaDon"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_toRightOf="@+id/tv_dialog_title_check_hoaDon"
+                android:layout_marginLeft="12dp"
+                android:gravity="center"
+                android:text="4.5kg"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/tv_dialog_value_check_hoaDon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_dialog_title_check_hoaDon"
+                android:layout_marginLeft="12dp"
+                android:layout_toRightOf="@+id/tv_dialog_title_check_hoaDon"
+                android:gravity="center"
+                android:text="so luong : 6"
+                android:textSize="10dp" />
+
+
+            <TextView
+                android:id="@+id/tv_dialog_titleName_member_check_hoaDon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_dialog_value_check_hoaDon"
+                android:layout_marginTop="12dp"
+                android:layout_toRightOf="@+id/img_dialog_check_hoaDon"
+                android:text="Người Nhận :" />
+
+            <TextView
+                android:id="@+id/tv_dialog_nameMember_check_hoaDon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_dialog_titleName_member_check_hoaDon"
+                android:layout_marginLeft="12dp"
+                android:layout_toRightOf="@+id/img_dialog_check_hoaDon"
+                android:text="nguyen hoang lam" />
+
+            <TextView
+                android:id="@+id/tv_dialog_phone_member_check_hoaDon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_dialog_nameMember_check_hoaDon"
+                android:layout_marginLeft="12dp"
+                android:layout_toRightOf="@+id/img_dialog_check_hoaDon"
+                android:text="0962540232" />
+
+            <TextView
+                android:id="@+id/tv_dialog_adress_member_check_hoaDon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_dialog_phone_member_check_hoaDon"
+                android:layout_marginLeft="12dp"
+                android:layout_toRightOf="@+id/img_dialog_check_hoaDon"
+                android:text="vu thu,thai binh" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_below="@+id/img_dialog_check_hoaDon"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/btn_dialog_send_check_hoaDon"
+                    android:layout_width="90dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/boder_brand"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:text="buy"
+                    android:textColor="@color/white"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_dialog_coin_check_hoaDon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="12dp"
+                    android:gravity="center"
+                    android:text="gia tien : 1.550.000 vnd"
+                    android:textColor="#e46d38"
+                    android:textStyle="bold|italic"
+                    android:textSize="19dp" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

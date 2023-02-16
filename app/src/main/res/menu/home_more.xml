@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Tât cả"
+        android:id="@+id/mn_all"
+        />
+    <item android:title="Whey"
+        android:id="@+id/mn_Whey"
+        />
+    <item android:title="Mass"
+        android:id="@+id/mn_Mass"
+        />
+    <item android:title="Bcaa"
+        android:id="@+id/mn_Bcaa"
+        />
+    <item android:title="Eaa"
+        android:id="@+id/mn_Eaa"
+        />
+</menu>

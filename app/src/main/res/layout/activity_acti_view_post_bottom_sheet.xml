@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="9dp"
+    tools:context=".Ui.View.Acti_ViewPost">
+
+    <LinearLayout
+        android:id="@+id/layout_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        >
+        <TextView
+            android:id="@+id/tv_viewPost_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OstroVit GAINLICIOUS"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            android:textColor="#595858"/>
+
+        <TextView
+            android:id="@+id/tv_viewPost_weight"
+            android:layout_toRightOf="@+id/tv_viewPost_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:text="4.5kg"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/img_viewPost_img1"
+                android:layout_width="220dp"
+                android:layout_height="220dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="12dp"
+                android:layout_marginRight="6dp"
+                android:src="@drawable/item" />
+
+            <TextView
+                android:id="@+id/tv_viewPost_brand_title"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginTop="22dp"
+                android:layout_toRightOf="@+id/img_viewPost_img1"
+                android:gravity="center"
+                android:text="Thương Hiệu :"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/tv_viewPost_brand"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="22dp"
+                android:layout_toRightOf="@+id/tv_viewPost_brand_title"
+                android:background="@drawable/boder_brand"
+                android:padding="6dp"
+                android:text="OstroVit"
+                android:textColor="@color/white"
+                android:textSize="9dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/linear_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_viewPost_brand_title"
+                android:layout_toRightOf="@+id/img_viewPost_img1"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/img_view_type_1"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:src="@drawable/type" />
+
+                <ImageView
+                    android:id="@+id/img_view_type_2"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:src="@drawable/type" />
+
+                <ImageView
+                    android:id="@+id/img_view_type_3"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:src="@drawable/type" />
+
+                <ImageView
+                    android:id="@+id/img_view_type_4"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:src="@drawable/type" />
+
+                <ImageView
+                    android:id="@+id/img_view_type_5"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:src="@drawable/type" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_viewPost_coin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linear_type"
+                android:layout_toRightOf="@+id/img_viewPost_img1"
+                android:text="1.800.000 d"
+                android:textColor="#ec2c1e"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/btn_viewPost_buy"
+                android:layout_width="90dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/tv_viewPost_coin"
+                android:layout_toRightOf="@+id/img_viewPost_img1"
+                android:gravity="center"
+                android:padding="3dp"
+                android:src="@drawable/add_cart"
+                android:text="add to card"
+                android:textColor="@color/white" />
+
+            <LinearLayout
+                android:id="@+id/linear_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_toRightOf="@id/img_viewPost_img1"
+                android:layout_below="@+id/btn_viewPost_buy"
+                android:layout_alignBottom="@+id/img_viewPost_img1"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/img_viewPost_img2"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/item"/>
+                <ImageView
+                    android:id="@+id/img_viewPost_img3"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/item"/>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/img_newPost_phone"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/img_viewPost_img1"
+                android:src="@drawable/phone" />
+
+            <TextView
+                android:id="@+id/tv_newPost_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_below="@+id/img_viewPost_img1"
+                android:layout_toRightOf="@id/img_newPost_phone"
+                android:gravity="center"
+                android:text="0962540232"
+                android:textColor="#6c6865" />
+
+
+            <TextView
+                android:id="@+id/tv_Acti_DonHang_thongTinDonHang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_newPost_phone"
+                android:background="@drawable/boder_info"
+                android:padding="9dp"
+                android:layout_marginTop="12dp"
+                android:text="Thông Tin Sản Phẩm"
+                android:textColor="@color/white" />
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_below="@+id/tv_Acti_DonHang_thongTinDonHang"
+                android:background="#e46d38" />
+
+
+            <TextView
+                android:id="@+id/tv_titleSp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view"
+                android:layout_marginTop="12dp"
+                android:textColor="#ff9009"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:text="name sp" />
+
+            <TextView
+                android:id="@+id/tv_trongluong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_titleSp"
+                android:layout_marginTop="12dp"
+                android:text="Trong luong" />
+
+
+
+            <TextView
+                android:id="@+id/tv_timeTest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="time Test"
+                android:layout_below="@+id/tv_trongluong"
+                android:layout_marginTop="12dp"/>
+
+            <TextView
+                android:id="@+id/tv_from"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_timeTest"
+                android:layout_marginTop="12dp"
+                android:text="xuat xu" />
+
+            <TextView
+                android:id="@+id/tv_element"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_from"
+                android:layout_marginTop="12dp"
+                android:text="thanh phan chinh" />
+
+
+
+            <TextView
+                android:id="@+id/tv_messeger"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_element"
+                android:layout_marginTop="12dp"
+                android:text="noi dung"
+                android:textSize="13dp" />
+
+            <TextView
+                android:id="@+id/tv_note"
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:layout_below="@+id/tv_messeger"
+                android:layout_marginTop="12dp"
+                android:text="note"
+                android:textColor="#FF5722"
+                android:textSize="9dp" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</LinearLayout>

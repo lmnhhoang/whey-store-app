@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/drawable/baseline_toc_24.xml" value="0.129" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/drawable/boder_brand.xml" value="0.129" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/drawable/boder_button_checkpom.xml" value="0.129" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/drawable/boder_info.xml" value="0.1575" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/drawable/boder_light_grey.xml" value="0.129" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/drawable/boder_light_item_home.xml" value="0.1355" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/drawable/boder_light_tomato.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/drawable/boder_search.xml" value="0.1375" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/drawable/boder_thongke_old.xml" value="0.145" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/layout/activity_acti_cho_lay_hang.xml" value="0.264" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/layout/activity_acti_cho_xac_nhan.xml" value="0.264" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/layout/activity_acti_don_bi_huy.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/layout/activity_acti_don_hang.xml" value="0.2" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/layout/activity_acti_edit_post.xml" value="0.2234375" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/layout/activity_acti_flash.xml" value="0.2234375" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/layout/activity_acti_hello.xml" value="0.2234375" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/layout/activity_acti_hoa_don.xml" value="0.2234375" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/layout/activity_acti_manage_san_pham.xml" value="0.2234375" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/layout/activity_acti_new_post.xml" value="0.2234375" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/layout/activity_acti_nhan_hang_thanh_cong.xml" value="0.2234375" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/layout/activity_acti_setting.xml" value="0.264" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/layout/activity_acti_slider.xml" value="0.2234375" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/layout/activity_acti_thong_ke.xml" value="0.264" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/layout/activity_acti_update_profile.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/layout/activity_acti_view_post.xml" value="0.10400000000000001" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/layout/activity_acti_view_post_bottom_sheet.xml" value="0.2" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/layout/activity_main.xml" value="0.2234375" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/layout/dialog_add_phone_adress_user.xml" value="0.2234375" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/layout/dialog_buy_sanpahm.xml" value="0.2" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/layout/dialog_buy_sanpham.xml" value="0.4" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/layout/dialog_checkPoin.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/layout/dialog_check_hoadon.xml" value="0.264" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/layout/dialog_checkpoin.xml" value="0.264" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/layout/dialog_delete.xml" value="0.4" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/layout/dialog_thanhcong.xml" value="0.264" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/layout/fragment_frag__bcaa.xml" value="0.2234375" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/layout/fragment_frag__eaa.xml" value="0.2234375" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/layout/fragment_frag__profile.xml" value="0.4" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/layout/fragment_frag_bcaaeaa.xml" value="0.2234375" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/layout/fragment_frag_home.xml" value="0.264" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/layout/fragment_frag_login.xml" value="0.2234375" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/layout/fragment_frag_mass.xml" value="0.2234375" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/layout/fragment_frag_register.xml" value="0.2234375" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/layout/fragment_frag_whey.xml" value="0.2234375" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/layout/fragment_frag_wheymass.xml" value="0.2234375" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/layout/item.xml" value="0.264" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/layout/item_donhang.xml" value="0.2234375" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/layout/item_hoadon.xml" value="0.4" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/layout/item_home_sanpham.xml" value="0.360381861575179" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/layout/item_image_show.xml" value="0.176" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/layout/item_show.xml" value="0.1" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/layout/item_slide.xml" value="0.264" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/layout/item_status_hoadon.xml" value="0.3973684210526316" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/layout/item_thongke.xml" value="0.264" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/layout/item_thongke_giatri.xml" value="0.2234375" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/layout/item_thongke_view_coin.xml" value="0.2234375" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/layout/layout_bottom_sheet.xml" value="0.264" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/layout/layout_chucnang.xml" value="0.20625" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/layout/layout_viewsanpham.xml" value="0.2234375" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/layout/loading.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/layout/menu_filter.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/layout/success.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/menu/home_filter.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/menu/home_more.xml" value="0.2234375" />
+        <entry key="..\:/Users/Dell/AndroidStudioProjects/wheyStore_6/WheyStore_nhom6/app/src/main/res/menu/menu_item.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

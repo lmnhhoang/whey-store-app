@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "846936267056",
+    "project_id": "wheystore-e3e08",
+    "storage_bucket": "wheystore-e3e08.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:846936267056:android:247f82d09e95f37d9f90f5",
+        "android_client_info": {
+          "package_name": "com.example.wheystore_nhom6"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "846936267056-fep92h4aj9o9edgl2r0b7ejfv3e3ku3l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCO8ThT0vLHZ6sw-O01VMdoXXer-F8SH-k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "846936267056-fep92h4aj9o9edgl2r0b7ejfv3e3ku3l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f3f3f1"
+    tools:context=".Ui.Tab.Frag_Profile">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="9dp"
+        android:background="#e46d38">
+
+        <TextView
+            android:id="@+id/tv_profile_Name"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:text="Name"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_profile_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:drawableStart="@android:drawable/ic_menu_manage" />
+
+        <TextView
+            android:id="@+id/tv_profile_member"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_profile_Name"
+            android:layout_marginTop="12dp"
+            android:padding="5dp"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:textColor="#e46d38"
+            android:background="@drawable/boder_search"
+            android:text="Thành Viên" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#F7F8F8" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="9dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/boder_light_grey"
+        android:textColor="@color/white"
+        android:layout_marginTop="12dp"
+        android:textStyle="bold"
+        android:text="Tùy Chọn" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="9dp"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/tv_profile_choXacNhan"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/choxacnhan"/>
+            <ImageView
+                android:id="@+id/tv_profile_choLayHang"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="12dp"
+                android:src="@drawable/cholayhang"/>
+            <ImageView
+                android:id="@+id/tv_profile_donHangBiHuy"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="12dp"
+                android:src="@drawable/huydonhang"/>
+            <ImageView
+                android:id="@+id/tv_profile_thongKe"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="12dp"
+                android:src="@drawable/thongke"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"/>
+        <ImageView
+            android:id="@+id/tv_profile_thanhCong"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="12dp"
+            android:src="@drawable/nhanhangthanhcong"/>
+    </LinearLayout>
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/tv_profile_updateSlide"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:gravity="center_vertical"-->
+<!--        android:drawableStart="@drawable/baseline_view_agenda_24"-->
+<!--        android:layout_marginTop="12dp"-->
+<!--        android:textColor="#5e5e5e"-->
+<!--        android:text="Cập nhật Slide" />-->
+
+</LinearLayout>

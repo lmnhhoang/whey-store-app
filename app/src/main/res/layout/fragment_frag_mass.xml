@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Ui.Tab.WheyMass.Frag_mass">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="22dp"
+        android:textColor="@color/white"
+        android:background="#00abff"
+        android:paddingStart="12dp"
+        android:text="Mass"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView_Frag_mass"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

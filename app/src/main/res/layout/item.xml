@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout_item"
+    android:layout_width="match_parent"
+    android:layout_height="345dp"
+    android:layout_marginTop="2dp"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<androidx.cardview.widget.CardView
+    android:layout_margin="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="333dp"
+    app:cardElevation="2dp"
+    android:layout_gravity="center_horizontal"
+    app:cardCornerRadius="22dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="333dp"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/layout_img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img_item_sanPham"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/item"/>
+
+            <ImageView
+                android:id="@+id/img_item_hethang"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/hethang"
+                />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/tv_item_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout_img"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="Zoneprot SUPER MASS GAINER 5,4 KG DYMATIZE"
+            android:textColor="@color/black"
+            android:textSize="19dp" />
+
+        <TextView
+            android:id="@+id/tv_item_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_item_title"
+            android:gravity="center"
+            android:text="1280 Calories,52G Protein,252g Carbohydrate." />
+
+        <LinearLayout
+            android:id="@+id/layout_type"
+            android:layout_below="@+id/tv_item_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/img_type_1"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:src="@drawable/type" />
+
+            <ImageView
+                android:id="@+id/img_type_2"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:src="@drawable/type" />
+
+            <ImageView
+                android:id="@+id/img_type_3"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:src="@drawable/type" />
+
+            <ImageView
+                android:id="@+id/img_type_4"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:src="@drawable/type" />
+
+            <ImageView
+                android:id="@+id/img_type_5"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:src="@drawable/type" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_item_coin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout_type"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="12dp"
+            android:gravity="center_horizontal"
+            android:text="1.800.000 đ"
+            android:textColor="#ec1904"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+</LinearLayout>

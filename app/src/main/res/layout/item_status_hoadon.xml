@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/LinearLayout_hoaDon"
+    android:layout_height="109dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:cardElevation="2dp"
+        app:cardCornerRadius="12dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:id="@+id/layout_hoaDon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/img_item_status_donHang"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/item" />
+
+            </FrameLayout>
+
+
+            <TextView
+                android:id="@+id/tv_item_status_hoaDon_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="12dp"
+                android:layout_toRightOf="@+id/layout_hoaDon"
+                android:text="WheyStore"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_item_status_hoaDon_coin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_item_status_hoaDon_title"
+                android:layout_marginLeft="12dp"
+                android:layout_toRightOf="@+id/layout_hoaDon"
+                android:text="1.800.000 vnd"
+                android:textColor="#F44336"
+                android:textSize="13dp" />
+
+            <TextView
+                android:id="@+id/tv_item_status_hoaDon_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_item_status_hoaDon_coin"
+                android:layout_marginLeft="12dp"
+                android:layout_toRightOf="@+id/layout_hoaDon"
+                android:text="số lượng : "
+                android:textColor="#FF9800"
+                android:textSize="13dp" />
+
+            <TextView
+                android:id="@+id/tv_item_status_hoaDon_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_item_status_hoaDon_value"
+                android:layout_marginLeft="12dp"
+                android:layout_toRightOf="@+id/layout_hoaDon"
+                android:text="28/10/2000"
+                android:textColor="#6D6D6B"
+                android:textSize="9dp" />
+
+            <TextView
+                android:id="@+id/tv_item_status_hoaDon_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_item_status_hoaDon_date"
+                android:layout_marginLeft="12dp"
+                android:layout_toRightOf="@+id/layout_hoaDon"
+                android:text="Trạng Thái"
+                android:textColor="#6D6D6B"
+                android:textSize="9dp" />
+
+
+            <ImageView
+                android:id="@+id/img_item_status_hoaDon_delete"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="12dp"
+                android:visibility="invisible"
+                android:src="@drawable/delete" />
+            <ImageView
+                android:id="@+id/img_item_status_hoaDon_success"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="9dp"
+                android:visibility="invisible"
+                android:layout_below="@+id/img_item_status_hoaDon_delete"
+                android:src="@drawable/dathangthanhcong" />
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
